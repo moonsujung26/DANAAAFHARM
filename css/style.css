@@ -297,6 +297,10 @@ footer p { font-size: 0.82rem; line-height: 1.8; }
 }
 .admin-toolbar h2 { font-size: 1rem; font-weight: 700; }
 .admin-actions { display: flex; gap: 10px; }
+.ftab{background:white;border:1px solid #e5e7eb;color:var(--gray);padding:6px 14px;border-radius:50px;font-size:.78rem;font-weight:600;cursor:pointer;transition:all .2s;}
+.ftab.active,.ftab:hover{background:var(--green);color:white;border-color:var(--green);}
+.admin-actions{display:flex;gap:10px;}
+
 .btn-export {
   background: var(--green); color: white; border: none;
   padding: 9px 18px; border-radius: 8px; font-size: 0.82rem; font-weight: 600; cursor: pointer;
